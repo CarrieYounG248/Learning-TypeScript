@@ -1,15 +1,16 @@
 {
     "compileOnSave": true,         //可以让IDE在保存文件的时候根据tsconfig.json重新生成文件
     "compilerOptions": {           //可以被忽略，这时编译器会使用默认值
-        "module": "commonjs",
+        "module": "system",
         "noImplicitAny": true,
         "removeComments": true,
         "preserveConstEnums": true,
+        // "outFile": "built/tsc.js",
         "sourceMap": true
     },
-    "files": [                   //包含相对或绝对文件路径的列表
-        "src/main.ts",
-    ],
+    // "files": [                   //包含相对或绝对文件路径的列表
+    //     "src/dataTypes.ts",
+    // ],
     "include": [                    //匹配模式列表
         "src/**/*"                   //.ts、.d.ts、.tsx
     ],
