@@ -117,6 +117,7 @@ let myInfo: [string, number];
 myInfo = ['carrie', 25];
 myInfo[0] = 'carrie';
 myInfo.push("female");
+console.log(myInfo);
 // myInfo.push(true);
 //!当添加越界的元素时，它的类型会被限制为元组中每个类型的联合类型
 
